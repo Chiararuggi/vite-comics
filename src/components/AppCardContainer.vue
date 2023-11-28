@@ -3,8 +3,12 @@
 <template>
   <div class="my-container">
     <div class="container">
-      <div class="col-12">
-        <p>Content goes here</p>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center">
+            <p>Content goes here</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -12,7 +16,7 @@
 
 <style>
 .my-container {
-  background-color: black;
+  background-color: #1c1c1c;
   color: white;
   min-height: 9rem;
 }

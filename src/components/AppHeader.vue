@@ -58,7 +58,7 @@ export default {
             <div class="col-12">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="my-logo-container my-3">
-                        <img src="../assets/img/dc-logo.png" alt="">
+                        <img src="/img/dc-logo.png" alt="">
                     </div>
                     <div class="my-menu-container">
                         <a v-for="link in menuLinks" :href="link.url" class="mx-3">{{ link.text }}</a>
