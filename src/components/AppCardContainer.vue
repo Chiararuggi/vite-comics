@@ -14,7 +14,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .my-container {
   background-color: #1c1c1c;
   color: white;

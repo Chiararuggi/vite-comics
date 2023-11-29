@@ -32,7 +32,7 @@ export default {
 </script>
 
 <template>
-  <div class="my-blue-container">
+  <div class="my-container">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -48,8 +48,8 @@ export default {
   </div>
 </template>
 
-<style>
-.my-blue-container {
+<style scoped>
+.my-container {
   background-color: #0282f9;
   color: white;
 }
