@@ -1,22 +1,19 @@
 <script>
+import AppCard from "./AppCard.vue";
 export default {
   name: "AppCardContainer",
-  data() {
-    return {
-    };
+  props: ["comics"],
+  components: {
+    AppCard,
   },
-  mounted() {},
-};</script>
+};
+</script>
 
 <template>
   <div class="my-container">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="d-flex align-items-center">
-            <p>Content goes here</p>
-          </div>
-        </div>
+          <AppCard v-for="comic in comics" :comic="comic" />
       </div>
     </div>
   </div>
@@ -26,6 +23,5 @@ export default {
 .my-container {
   background-color: #1c1c1c;
   color: white;
-  min-height: 9rem;
 }
 </style>
