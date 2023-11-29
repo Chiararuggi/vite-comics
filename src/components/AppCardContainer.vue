@@ -1,4 +1,12 @@
-<script></script>
+<script>
+export default {
+  name: "AppCardContainer",
+  data() {
+    return {
+    };
+  },
+  mounted() {},
+};</script>
 
 <template>
   <div class="my-container">
